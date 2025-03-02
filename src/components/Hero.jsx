@@ -13,7 +13,7 @@ function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="../src/public/image/utomp3.com - - Burger  3d Product Animation_v720P.mp4" type="video/mp4" />
+          <source src="/utomp3.com - - Burger  3d Product Animation_v720P.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -22,7 +22,7 @@ function Hero() {
       <div className="text-center z-10 relative">
         <div className="animate-bounce mb-6">
           <img 
-            src="../src/public/image/Dish360 png.png" 
+            src="/Dish360 png.png" 
             alt="DISH360 Logo" 
             className="mx-auto w-24 h-24"
           />

@@ -13,7 +13,7 @@ function About() {
           {/* Left side - Image */}
           <div className="lg:w-1/2">
             <img 
-              src="../src/public/image/Instagram post - 1.png" 
+              src="/Instagram post - 1.png" 
               alt="Instagram Preview" 
               className="w-full h-auto rounded-2xl shadow-xl"
             />
