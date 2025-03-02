@@ -1,0 +1,25 @@
+/* Main CSS entry point */
+@import './base.css';
+@import './components.css';
+@import './utilities.css';
+
+/* Global styles */
+:root {
+  --primary: #4f46e5;
+  --secondary: #1f2937;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem; /* This accounts for the fixed navbar */
+}
